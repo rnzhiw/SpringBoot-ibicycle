@@ -1,0 +1,47 @@
+.header{
+    height: 55px;
+}
+
+.main-panel{
+    background-color: #fcfcfc;
+}
+
+.common-btn{
+    margin-left: 8px;
+    background-color:#4b8ee5;
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+.cancel-btn{
+    margin-left: 8px;
+    background-color: #919090;
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+.search-address-btn{
+    margin-left: -15px;
+}
+
+.common-btn:hover, .common-btn:focus, .common-btn:active { 
+    opacity: 0.9; 
+    text-decoration: none;
+    color: #fff; 
+}
+
+.table_list{
+    table-layout:fixed !important;
+ }
+
+ td{
+    vertical-align: middle !important;
+ }
+
+.main-header nav .container-fluid .nav-item ul{
+    width: 170px;
+}
+
+.sidebar .nav .nav-item{
+    cursor: default;
+}

@@ -1,0 +1,67 @@
+.nav-tabs li{
+    font-family:微软雅黑;
+    font-weight: 550;
+    letter-spacing: 1px;
+    color: #000000;
+}
+.form-group{
+    padding: 15px 10px 0px 10px;
+    margin-bottom: 0px;
+}
+.location{
+    min-height: 500px;
+    background-color: #5cb85c;
+    margin-top: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#location_map{
+    margin-top: 10px;
+}
+.confirm{
+    width: 45%;
+}
+.time-select{
+    float: left;
+    width: 150px;
+    margin-right: 15px;
+}
+.item{
+    float: left;
+    margin-right: 15px;
+    height: 34px;
+    line-height: 30px;
+    font-size: 30px;
+}
+
+.track{
+    min-height: 500px;
+    background-color: #5cb85c;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#track_map{
+    margin-top: 10px;
+}
+.info{
+    margin-right: 8px;
+}
+.preview{
+    height: 332px;
+    border: 1px solid #ccc;
+    border-radius: 4px
+}
+
+#img{
+    height: 330px;
+    width: 99.8%;
+    border-radius: 4px
+}
+#information{
+    padding-top: 5%;
+}

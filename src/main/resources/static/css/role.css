@@ -1,0 +1,19 @@
+.form-group{
+    padding-top: 0px;
+    margin-bottom: 0px;
+}
+.left{
+    margin-top: -20px;
+}
+
+.right{
+    margin-top: -20px;
+}
+.right .bootstrap-table .fixed-table-container .fixed-table-body #create_table tbody tr .bs-checkbox input{
+    left: 1px;
+    position: relative;
+}
+.left .bootstrap-table .fixed-table-container .fixed-table-body #role_table tbody tr .bs-checkbox input{
+    left: 1px;
+    position: relative;
+}

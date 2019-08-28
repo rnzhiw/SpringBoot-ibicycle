@@ -1,0 +1,683 @@
+[
+  {
+    "id": 2,
+    "realName": "烟感器实验",
+    "loginName": "admin",
+    "status": 1,
+    "hiredate": "2018-08-24",
+    "avatar": null,
+    "orgId": 2,
+    "orgName": "烟感器平台",
+    "orgType": 0,
+    "contactId": 3,
+    "tel": null,
+    "mobile": null,
+    "email": null,
+    "qq": null,
+    "wechat": null,
+    "wechatMp": null,
+    "wangwang": null,
+    "webo": null,
+    "addressId": null,
+    "address": null,
+    "gender": "BOY",
+    "roleIds": [
+      3,
+      9,
+      9
+    ],
+    "roleNames": [
+      "平台管理员",
+      "场所管理员",
+      "场所管理员"
+    ]
+  },
+  {
+    "id": 3,
+    "realName": "烟感器平台员工",
+    "loginName": "member1",
+    "status": 1,
+    "hiredate": "2018-05-22",
+    "avatar": null,
+    "orgId": 2,
+    "orgName": "烟感器平台",
+    "orgType": 0,
+    "contactId": null,
+    "tel": null,
+    "mobile": null,
+    "email": null,
+    "qq": null,
+    "wechat": null,
+    "wechatMp": null,
+    "wangwang": null,
+    "webo": null,
+    "addressId": null,
+    "address": null,
+    "gender": "GIRL",
+    "roleIds": [
+      5
+    ],
+    "roleNames": [
+      "代理商管理员"
+    ]
+  },
+  {
+    "id": 4,
+    "realName": "烟感器代理商1",
+    "loginName": "$agentadmin",
+    "status": 1,
+    "hiredate": "2018-05-24",
+    "avatar": null,
+    "orgId": 3,
+    "orgName": "烟感器代理商1",
+    "orgType": 1,
+    "contactId": null,
+    "tel": null,
+    "mobile": null,
+    "email": null,
+    "qq": null,
+    "wechat": null,
+    "wechatMp": null,
+    "wangwang": null,
+    "webo": null,
+    "addressId": null,
+    "address": null,
+    "gender": "BOY",
+    "roleIds": [
+      5
+    ],
+    "roleNames": [
+      "代理商管理员"
+    ]
+  },
+  {
+    "id": 5,
+    "realName": "单位用户员工",
+    "loginName": "$useradmin",
+    "status": 1,
+    "hiredate": "2018-09-04",
+    "avatar": "/attachment/avatar/2018/10/91060535-9d3f-4627-821c-dfc6d13046d2.jpg",
+    "orgId": 4,
+    "orgName": "烟感器用户单位1",
+    "orgType": 3,
+    "contactId": 5,
+    "tel": null,
+    "mobile": "wqer",
+    "email": null,
+    "qq": null,
+    "wechat": null,
+    "wechatMp": null,
+    "wangwang": null,
+    "webo": null,
+    "addressId": null,
+    "address": null,
+    "gender": "BOY",
+    "roleIds": [
+      7,
+      9
+    ],
+    "roleNames": [
+      "单位用户管理员",
+      "场所管理员"
+    ]
+  },
+  {
+    "id": 6,
+    "realName": "测试用户员工",
+    "loginName": "useradmin2",
+    "status": 1,
+    "hiredate": "2018-06-06",
+    "avatar": null,
+    "orgId": 6,
+    "orgName": "烟感测试用户2",
+    "orgType": 3,
+    "contactId": null,
+    "tel": null,
+    "mobile": null,
+    "email": null,
+    "qq": null,
+    "wechat": null,
+    "wechatMp": null,
+    "wangwang": null,
+    "webo": null,
+    "addressId": null,
+    "address": null,
+    "gender": "BOY",
+    "roleIds": [
+      7
+    ],
+    "roleNames": [
+      "单位用户管理员"
+    ]
+  },
+  {
+    "id": 7,
+    "realName": "二级代理管理员",
+    "loginName": "leveltwo",
+    "status": 1,
+    "hiredate": "2018-06-08",
+    "avatar": null,
+    "orgId": 5,
+    "orgName": "二级代理",
+    "orgType": 1,
+    "contactId": null,
+    "tel": null,
+    "mobile": null,
+    "email": null,
+    "qq": null,
+    "wechat": null,
+    "wechatMp": null,
+    "wangwang": null,
+    "webo": null,
+    "addressId": null,
+    "address": null,
+    "gender": "BOY",
+    "roleIds": [
+      5
+    ],
+    "roleNames": [
+      "代理商管理员"
+    ]
+  },
+  {
+    "id": 8,
+    "realName": "普通员工",
+    "loginName": "$user1",
+    "status": 1,
+    "hiredate": "2018-06-08",
+    "avatar": null,
+    "orgId": 4,
+    "orgName": "烟感器用户单位1",
+    "orgType": 3,
+    "contactId": null,
+    "tel": null,
+    "mobile": null,
+    "email": null,
+    "qq": null,
+    "wechat": null,
+    "wechatMp": null,
+    "wangwang": null,
+    "webo": null,
+    "addressId": null,
+    "address": null,
+    "gender": "BOY",
+    "roleIds": null,
+    "roleNames": null
+  },
+  {
+    "id": 9,
+    "realName": "普通员工2",
+    "loginName": "$user2",
+    "status": 1,
+    "hiredate": "2018-08-20",
+    "avatar": null,
+    "orgId": 4,
+    "orgName": "烟感器用户单位1",
+    "orgType": 3,
+    "contactId": null,
+    "tel": null,
+    "mobile": null,
+    "email": null,
+    "qq": null,
+    "wechat": null,
+    "wechatMp": null,
+    "wangwang": null,
+    "webo": null,
+    "addressId": null,
+    "address": null,
+    "gender": "BOY",
+    "roleIds": [
+      9
+    ],
+    "roleNames": [
+      "场所管理员"
+    ]
+  },
+  {
+    "id": 10,
+    "realName": "小明",
+    "loginName": "xiaoming",
+    "status": 1,
+    "hiredate": "2018-08-20",
+    "avatar": null,
+    "orgId": 4,
+    "orgName": "烟感器用户单位1",
+    "orgType": 3,
+    "contactId": null,
+    "tel": null,
+    "mobile": null,
+    "email": null,
+    "qq": null,
+    "wechat": null,
+    "wechatMp": null,
+    "wangwang": null,
+    "webo": null,
+    "addressId": null,
+    "address": null,
+    "gender": "BOY",
+    "roleIds": [
+      9
+    ],
+    "roleNames": [
+      "场所管理员"
+    ]
+  },
+  {
+    "id": 11,
+    "realName": "浙江代理",
+    "loginName": "zhejiang",
+    "status": 1,
+    "hiredate": "2018-06-13",
+    "avatar": null,
+    "orgId": 3,
+    "orgName": "烟感器代理商1",
+    "orgType": 1,
+    "contactId": null,
+    "tel": null,
+    "mobile": null,
+    "email": null,
+    "qq": null,
+    "wechat": null,
+    "wechatMp": null,
+    "wangwang": null,
+    "webo": null,
+    "addressId": null,
+    "address": null,
+    "gender": "BOY",
+    "roleIds": [
+      5
+    ],
+    "roleNames": [
+      "代理商管理员"
+    ]
+  },
+  {
+    "id": 12,
+    "realName": "杭州",
+    "loginName": "hangzhou",
+    "status": 1,
+    "hiredate": "2018-06-13",
+    "avatar": null,
+    "orgId": 2,
+    "orgName": "烟感器平台",
+    "orgType": 0,
+    "contactId": null,
+    "tel": null,
+    "mobile": null,
+    "email": null,
+    "qq": null,
+    "wechat": null,
+    "wechatMp": null,
+    "wangwang": null,
+    "webo": null,
+    "addressId": null,
+    "address": null,
+    "gender": "BOY",
+    "roleIds": [
+      5
+    ],
+    "roleNames": [
+      "代理商管理员"
+    ]
+  },
+  {
+    "id": 14,
+    "realName": "设备供应商a",
+    "loginName": "suppliera",
+    "status": 1,
+    "hiredate": "2018-08-16",
+    "avatar": null,
+    "orgId": 16,
+    "orgName": "设备提供商1",
+    "orgType": 5,
+    "contactId": null,
+    "tel": null,
+    "mobile": null,
+    "email": null,
+    "qq": null,
+    "wechat": null,
+    "wechatMp": null,
+    "wangwang": null,
+    "webo": null,
+    "addressId": null,
+    "address": null,
+    "gender": "BOY",
+    "roleIds": [
+      11
+    ],
+    "roleNames": [
+      "设备供应商管理员"
+    ]
+  },
+  {
+    "id": 16,
+    "realName": "政府部门总账户",
+    "loginName": "govadmin",
+    "status": 1,
+    "hiredate": "2018-08-20",
+    "avatar": null,
+    "orgId": 17,
+    "orgName": "政府部门",
+    "orgType": 6,
+    "contactId": null,
+    "tel": null,
+    "mobile": null,
+    "email": null,
+    "qq": null,
+    "wechat": null,
+    "wechatMp": null,
+    "wangwang": null,
+    "webo": null,
+    "addressId": null,
+    "address": null,
+    "gender": "BOY",
+    "roleIds": [
+      13
+    ],
+    "roleNames": [
+      "政府平台管理员"
+    ]
+  },
+  {
+    "id": 17,
+    "realName": "浙江省管理员",
+    "loginName": "zjadmin",
+    "status": 1,
+    "hiredate": "2018-08-20",
+    "avatar": null,
+    "orgId": 18,
+    "orgName": "浙江省",
+    "orgType": 6,
+    "contactId": null,
+    "tel": null,
+    "mobile": null,
+    "email": null,
+    "qq": null,
+    "wechat": null,
+    "wechatMp": null,
+    "wangwang": null,
+    "webo": null,
+    "addressId": null,
+    "address": null,
+    "gender": "BOY",
+    "roleIds": [
+      13
+    ],
+    "roleNames": [
+      "政府平台管理员"
+    ]
+  },
+  {
+    "id": 18,
+    "realName": "海南省管理员",
+    "loginName": "hnadmin",
+    "status": 1,
+    "hiredate": "2018-08-21",
+    "avatar": null,
+    "orgId": 20,
+    "orgName": "海南省",
+    "orgType": 6,
+    "contactId": null,
+    "tel": null,
+    "mobile": null,
+    "email": null,
+    "qq": null,
+    "wechat": null,
+    "wechatMp": null,
+    "wangwang": null,
+    "webo": null,
+    "addressId": null,
+    "address": null,
+    "gender": "BOY",
+    "roleIds": [
+      13
+    ],
+    "roleNames": [
+      "政府平台管理员"
+    ]
+  },
+  {
+    "id": 19,
+    "realName": "悟空主持",
+    "loginName": "wukong",
+    "status": 1,
+    "hiredate": "2018-08-23",
+    "avatar": null,
+    "orgId": 21,
+    "orgName": "灵隐寺",
+    "orgType": 3,
+    "contactId": null,
+    "tel": null,
+    "mobile": null,
+    "email": null,
+    "qq": null,
+    "wechat": null,
+    "wechatMp": null,
+    "wangwang": null,
+    "webo": null,
+    "addressId": null,
+    "address": null,
+    "gender": "BOY",
+    "roleIds": [
+      7
+    ],
+    "roleNames": [
+      "单位用户管理员"
+    ]
+  },
+  {
+    "id": 20,
+    "realName": "悟能主持",
+    "loginName": "wuneng",
+    "status": 1,
+    "hiredate": "2018-08-23",
+    "avatar": null,
+    "orgId": 21,
+    "orgName": "灵隐寺",
+    "orgType": 3,
+    "contactId": null,
+    "tel": null,
+    "mobile": null,
+    "email": null,
+    "qq": null,
+    "wechat": null,
+    "wechatMp": null,
+    "wangwang": null,
+    "webo": null,
+    "addressId": null,
+    "address": null,
+    "gender": "BOY",
+    "roleIds": [
+      9,
+      9,
+      9
+    ],
+    "roleNames": [
+      "场所管理员",
+      "场所管理员",
+      "场所管理员"
+    ]
+  },
+  {
+    "id": 21,
+    "realName": "悟净主持",
+    "loginName": "wujing",
+    "status": 1,
+    "hiredate": "2018-08-23",
+    "avatar": null,
+    "orgId": 21,
+    "orgName": "灵隐寺",
+    "orgType": 3,
+    "contactId": null,
+    "tel": null,
+    "mobile": null,
+    "email": null,
+    "qq": null,
+    "wechat": null,
+    "wechatMp": null,
+    "wangwang": null,
+    "webo": null,
+    "addressId": null,
+    "address": null,
+    "gender": "BOY",
+    "roleIds": [
+      9,
+      9
+    ],
+    "roleNames": [
+      "场所管理员",
+      "场所管理员"
+    ]
+  },
+  {
+    "id": 22,
+    "realName": "立昂技术",
+    "loginName": "leon",
+    "status": 1,
+    "hiredate": "2018-09-04",
+    "avatar": "/attachment/avatar/2018/10/4bebe1d8-e754-48ae-b208-8d2302498f8b.jpg",
+    "orgId": 22,
+    "orgName": "立昂技术",
+    "orgType": 3,
+    "contactId": 4,
+    "tel": null,
+    "mobile": "15022980416",
+    "email": null,
+    "qq": null,
+    "wechat": null,
+    "wechatMp": null,
+    "wangwang": null,
+    "webo": null,
+    "addressId": null,
+    "address": null,
+    "gender": "BOY",
+    "roleIds": [
+      7,
+      9
+    ],
+    "roleNames": [
+      "单位用户管理员",
+      "场所管理员"
+    ]
+  },
+  {
+    "id": 25,
+    "realName": "叶",
+    "loginName": "pyjtwlw",
+    "status": 1,
+    "hiredate": "2018-09-11",
+    "avatar": null,
+    "orgId": 23,
+    "orgName": "温州市骏图物联网",
+    "orgType": 1,
+    "contactId": 9,
+    "tel": null,
+    "mobile": "13958968555",
+    "email": null,
+    "qq": null,
+    "wechat": null,
+    "wechatMp": null,
+    "wangwang": null,
+    "webo": null,
+    "addressId": null,
+    "address": null,
+    "gender": "BOY",
+    "roleIds": [
+      5
+    ],
+    "roleNames": [
+      "代理商管理员"
+    ]
+  },
+  {
+    "id": 29,
+    "realName": "运维人员测试",
+    "loginName": "manage",
+    "status": 1,
+    "hiredate": "2018-09-14",
+    "avatar": null,
+    "orgId": 5,
+    "orgName": "二级代理",
+    "orgType": 1,
+    "contactId": 13,
+    "tel": null,
+    "mobile": "11111111",
+    "email": null,
+    "qq": null,
+    "wechat": null,
+    "wechatMp": null,
+    "wangwang": null,
+    "webo": null,
+    "addressId": null,
+    "address": null,
+    "gender": "BOY",
+    "roleIds": [
+      12
+    ],
+    "roleNames": [
+      "运维支持人员"
+    ]
+  },
+  {
+    "id": 30,
+    "realName": "演示",
+    "loginName": "leon002",
+    "status": 1,
+    "hiredate": "2018-10-31",
+    "avatar": null,
+    "orgId": 22,
+    "orgName": "立昂技术",
+    "orgType": 3,
+    "contactId": 14,
+    "tel": null,
+    "mobile": "18599413553",
+    "email": null,
+    "qq": null,
+    "wechat": null,
+    "wechatMp": null,
+    "wangwang": null,
+    "webo": null,
+    "addressId": null,
+    "address": null,
+    "gender": "BOY",
+    "roleIds": [
+      9,
+      7
+    ],
+    "roleNames": [
+      "场所管理员",
+      "单位用户管理员"
+    ]
+  },
+  {
+    "id": 31,
+    "realName": "SMKTEST",
+    "loginName": "SMKTEST",
+    "status": 1,
+    "hiredate": "2018-10-31",
+    "avatar": null,
+    "orgId": 24,
+    "orgName": "烟感测试",
+    "orgType": 3,
+    "contactId": 15,
+    "tel": null,
+    "mobile": "159",
+    "email": null,
+    "qq": null,
+    "wechat": null,
+    "wechatMp": null,
+    "wangwang": null,
+    "webo": null,
+    "addressId": null,
+    "address": null,
+    "gender": "BOY",
+    "roleIds": [
+      7,
+      9
+    ],
+    "roleNames": [
+      "单位用户管理员",
+      "场所管理员"
+    ]
+  }
+]
