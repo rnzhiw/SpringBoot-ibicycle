@@ -21,8 +21,8 @@ import javax.servlet.http.HttpSession;
 /**
  * 入口控制器
  *
- * @author fuenhui
- * @date 2018/11/24
+ * @author ruanzhiwei
+ * @date 2019/08/24
  */
 @Controller
 public class AppController {

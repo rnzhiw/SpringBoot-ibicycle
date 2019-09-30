@@ -20,8 +20,8 @@ import javax.validation.groups.Default;
 /**
  * 组织控制器
  *
- * @author fuenhui
- * @date 2018/12/6
+ * @author ruanzhiwei
+ * @date 2019/7/8
  */
 @Controller
 @RequestMapping("/system/organization")

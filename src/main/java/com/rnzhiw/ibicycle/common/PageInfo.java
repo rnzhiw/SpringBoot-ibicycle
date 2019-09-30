@@ -5,8 +5,8 @@ import java.util.List;
 /**
  * 分页返回格式
  *
- * @author fuenhui
- * @date 2018/12/12
+ * @author ruanzhiwei
+ * @date 2019/7/8
  */
 public class PageInfo<T> {
 

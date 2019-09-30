@@ -3,8 +3,8 @@ package com.rnzhiw.ibicycle.common;
 /**
  * 接口返回结果，若成功找data，若失败找msg
  *
- * @author fuenhui
- * @date 2018/12/1
+ * @author ruanzhiwei
+ * @date 2019/7/8
  */
 public class AjaxResult {
 

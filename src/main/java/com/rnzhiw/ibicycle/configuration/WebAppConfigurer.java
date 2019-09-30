@@ -11,8 +11,8 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 /**
  * 系统配置器
  *
- * @author fuenhui
- * @date 2018/11/29
+ * @author ruanzhiwei
+ * @date 2019/7/8
  */
 @Configuration
 public class WebAppConfigurer extends WebMvcConfigurerAdapter {

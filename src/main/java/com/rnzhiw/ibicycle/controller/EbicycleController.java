@@ -19,8 +19,8 @@ import java.util.Date;
 /**
  * 电动车控制器
  *
- * @author fuenhui
- * @date 2018/11/10
+ * @author ruanzhiwei
+ * @date 2019/7/8
  */
 @Controller
 @RequestMapping("/system/bicycle")

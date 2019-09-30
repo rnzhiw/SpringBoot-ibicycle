@@ -19,8 +19,8 @@ import javax.validation.groups.Default;
 /**
  * 资源控制器
  *
- * @author fuenhui
- * @date 2018/12/8
+ * @author ruanzhiwei
+ * @date 2019/7/8
  */
 @Controller
 @RequestMapping("/system/resource")
