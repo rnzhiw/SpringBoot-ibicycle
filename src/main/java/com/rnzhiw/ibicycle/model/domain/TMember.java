@@ -86,7 +86,7 @@ public class TMember {
      */
     @ManyToMany
     @JoinTable(name = "t_member_role", joinColumns = {@JoinColumn(name = "member_id")}, inverseJoinColumns =
-            {@JoinColumn(name = "role_id")})
+    {@JoinColumn(name = "role_id")})
     private List<TRole> roles;
 
     /**

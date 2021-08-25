@@ -26,6 +26,7 @@ import java.util.List;
 @Service
 @Transactional(rollbackFor = Exception.class)
 public class OrganizationServiceImpl implements OrganizationService {
+    
 
     @Value("${system.super-user-id}")
     private Long superUserId;

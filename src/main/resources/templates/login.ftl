@@ -41,42 +41,42 @@
 </div>
 
 </body>
-<#--<script>-->
-    <#--function login(){-->
-        <#--$("#loginForm").validate({-->
-            <#--submitHandler:function(form){-->
-                <#--doLogin();-->
-            <#--}-->
-        <#--});-->
-    <#--}-->
-    <#--function doLogin(){-->
-        <#--g_showLoading();-->
-
-        <#--var inputPass = $("#password").val();-->
-
-        <#--$.ajax({-->
-            <#--url: "/login",-->
-            <#--type: "POST",-->
-            <#--data:{-->
-                <#--mobile:$("#mobile").val(),-->
-                <#--password: inputPass-->
-            <#--},-->
-            <#--success:function(data){-->
-                <#--layer.closeAll();-->
-                <#--// console.log(data);-->
-                <#--if(data.code == 0){-->
-                    <#--layer.msg("登录成功");-->
-                    <#--window.location.href="/index";-->
-                <#--}else{-->
-                    <#--layer.msg(data.msg);-->
-                <#--}-->
-            <#--},-->
-            <#--error:function(){-->
-                <#--layer.closeAll();-->
-            <#--}-->
-        <#--});-->
-    <#--}-->
-<#--</script>-->
+<script>
+    // function login(){
+    //     $("#loginForm").validate({
+    //         submitHandler:function(form){
+    //             doLogin();
+    //         }
+    //     });
+    // }
+    // function doLogin(){
+    //     g_showLoading();
+    //
+    //     var inputPass = $("#password").val();
+    //
+    //     $.ajax({
+    //         url: "/login",
+    //         type: "POST",
+    //         data:{
+    //             mobile:$("#mobile").val(),
+    //             password: inputPass
+    //         },
+    //         success:function(data){
+    //             layer.closeAll();
+    //             // console.log(data);
+    //             if(data.code == 0){
+    //                 layer.msg("登录成功");
+    //                 window.location.href="/index";
+    //             }else{
+    //                 layer.msg(data.msg);
+    //             }
+    //         },
+    //         error:function(){
+    //             layer.closeAll();
+    //         }
+    //     });
+    // }
+</script>
 <!-- jquery  -->
 <script type="text/javascript" src="/static/lib/core/jquery.3.2.1.min.js"></script>
 

@@ -77,7 +77,7 @@
                             ${menu.resName}
                         </p>
                     </a>
-                    </li>
+                        </li>
                 </#list>
             </ul>
         </div>

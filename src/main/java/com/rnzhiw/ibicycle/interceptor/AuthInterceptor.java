@@ -31,9 +31,9 @@ public class AuthInterceptor implements HandlerInterceptor {
         //当前用户所有可访问的路径
         Set<String> urls = (Set<String>) sessionInfo.getUrls();
 
-//        for (String url : urls) {
-//            System.out.println(url);
-//        }
+        for (String url : urls) {
+            System.out.println(url);
+        }
 
         //当前访问的路径
         String uri = request.getRequestURI();

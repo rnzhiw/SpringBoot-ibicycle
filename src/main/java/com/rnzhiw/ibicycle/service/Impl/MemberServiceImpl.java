@@ -66,6 +66,13 @@ public class MemberServiceImpl implements MemberService {
         return e2d(memberDAO.getOne(userId));
     }
 
+    /**
+     *
+     * @param pageSize 一页有多少纪录
+     * @param pageNum 页数
+     * @param userId 用户Id
+     * @return
+     */
     @Override
     public PageInfo<MemberDTO> findAllMember(Integer pageSize, Integer pageNum, Long userId) {
 

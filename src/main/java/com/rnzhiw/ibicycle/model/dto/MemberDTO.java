@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * 用户DTO
  *
- * @author fuenhui
+ * @author ruanzhiwei
  * @date 2018/11/24
  */
 public class MemberDTO {

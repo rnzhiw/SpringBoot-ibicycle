@@ -24,6 +24,7 @@ public class AjaxResult {
         return AjaxResult.success(null);
     }
 
+
     public static AjaxResult success(String msg) {
         return AjaxResult.success(null, msg);
     }
@@ -62,6 +63,7 @@ public class AjaxResult {
     public String getMessage() {
         return message;
     }
+
 
     public void setMessage(String message) {
         this.message = message;
